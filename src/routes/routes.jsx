@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { LazyLoadComponent } from 'react-lazy-load-image-component';
-const ContactForm = React.lazy(() => import('../pages/ContactForm'));
+const ContactForm = React.lazy(() => import('../pages/contactform'));
 const HeroSection = React.lazy(() => import('../pages/home'));
-const PricingTable = React.lazy(() => import('../pages/PricingTable'));
+const PricingTable = React.lazy(() => import('../pages/pricingtable'));
 const SearchBar = React.lazy(() => import('../pages/searchbar'));
 
 function AppRoutes () {
