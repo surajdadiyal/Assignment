@@ -4,7 +4,7 @@ import { Textarea } from '../components/ui/textarea';
 import { Button } from '../components/ui/button';
 import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
-const ContactForm = () => {
+function ContactForm(){
     const [formData, setFormData] = useState({
         name: '',
         email: '',

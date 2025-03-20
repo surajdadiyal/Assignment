@@ -3,7 +3,7 @@ import { debounce } from 'lodash';
 import { Input } from '../components/ui/input';
 import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
-const SearchBar = ({ users, setFilteredUsers }) => {
+function SearchBar ({ users, setFilteredUsers }){
     const [searchTerm, setSearchTerm] = useState('');
 
     // Check if users is an array before applying filter

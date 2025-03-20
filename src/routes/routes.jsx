@@ -5,7 +5,7 @@ const HeroSection = React.lazy(() => import('../pages/home'));
 const PricingTable = React.lazy(() => import('../pages/PricingTable'));
 const SearchBar = React.lazy(() => import('../pages/searchbar'));
 
-const App = () => {
+function AppRoutes () {
   const [users, setUsers] = useState([]);
   const [filteredUsers, setFilteredUsers] = useState([]);
 
@@ -49,4 +49,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default AppRoutes;
